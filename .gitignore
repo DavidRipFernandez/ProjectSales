@@ -1,0 +1,36 @@
+# Carpeta de Visual Studio
+.vs/
+
+# Archivos de usuario de VS
+*.user
+*.suo
+
+# Compilados .NET
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Publicaciones
+[Pp]ublish/
+*.pubxml
+*.pubxml.user
+
+# Paquetes
+packages/
+*.nupkg
+
+# Node / React
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build temporal de clientes JS
+projectsales.client/build/
+projectsales.client/dist/
+projectsales.client/.next/
+projectsales.client/.turbo/
+
+# Otros
+*.tmp
+*.log
