@@ -18,5 +18,4 @@ createRoot(rootElement).render(
       <RouterProvider router={router} />
     </AuthProvider>
   </StrictMode>
->>>>>>> c1370422a2a5ca598c89cd6f6f3fdfccfc81c618
 );
