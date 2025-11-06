@@ -13,13 +13,7 @@ public class JwtSettings
     public string Audience { get; set; } = string.Empty;
     public string Secret { get; set; } = string.Empty;
     public int AccessTokenMinutes { get; set; }
-    {
-        get; set;
-    }
     public int RefreshTokenDays { get; set; }
-    {
-        get; set;
-    }
     public string Pepper { get; set; } = string.Empty;
 }
 
