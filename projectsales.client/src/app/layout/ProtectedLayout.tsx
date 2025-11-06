@@ -5,13 +5,17 @@ import { Sidebar } from '../../components/Sidebar';
 import { Navbar } from '../../components/Navbar';
 
 export const ProtectedLayout = () => {
-  const { user, loading } = useAuth();
+  const { user, accessToken, loading } = useAuth();
   const location = useLocation();
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   useEffect(() => {
     setSidebarOpen(false);
   }, [location.pathname]);
+
+  if (loading && !user && !accessToken) {
+    return <Navigate to="/login" state={{ from: location }} replace />;
+  }
 
   if (loading) {
     return (

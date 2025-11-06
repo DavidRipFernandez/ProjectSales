@@ -5,7 +5,13 @@ import './index.css';
 import { AuthProvider } from './app/auth/AuthContext';
 import { router } from './app/router';
 
-createRoot(document.getElementById('root')!).render(
+const rootElement = document.getElementById('root');
+
+if (!rootElement) {
+  throw new Error('No se encontró el contenedor principal para la aplicación');
+}
+
+createRoot(rootElement).render(
   <StrictMode>
     <AuthProvider>
       <RouterProvider router={router} />
