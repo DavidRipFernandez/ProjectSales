@@ -1,0 +1,67 @@
+<svg width="1440" height="1024" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="1024" fill="url(#paint0_linear)" />
+  <g opacity="0.25">
+    <path d="M200 780L320 660L440 780H200Z" fill="url(#paint1_linear)" />
+    <path d="M320 660L320 540L440 540V780L320 660Z" fill="url(#paint2_linear)" />
+    <path d="M200 780L200 600L320 540L320 660L200 780Z" fill="url(#paint3_linear)" />
+    <rect x="250" y="660" width="40" height="60" rx="6" fill="#F1F5F9" />
+    <rect x="360" y="660" width="40" height="120" rx="6" fill="#F1F5F9" />
+  </g>
+  <g opacity="0.25">
+    <path d="M880 820L1040 640L1200 820H880Z" fill="url(#paint4_linear)" />
+    <path d="M1040 640V520L1200 520V820L1040 640Z" fill="url(#paint5_linear)" />
+    <path d="M880 820V600L1040 520V640L880 820Z" fill="url(#paint6_linear)" />
+    <rect x="940" y="700" width="48" height="72" rx="8" fill="#F8FAFC" />
+    <rect x="1096" y="700" width="48" height="144" rx="8" fill="#F8FAFC" />
+  </g>
+  <g opacity="0.2">
+    <path d="M520 860L640 720L760 860H520Z" fill="url(#paint7_linear)" />
+    <path d="M640 720V620L760 620V860L640 720Z" fill="url(#paint8_linear)" />
+    <path d="M520 860V660L640 620V720L520 860Z" fill="url(#paint9_linear)" />
+    <rect x="580" y="760" width="44" height="80" rx="7" fill="#EEF2FF" />
+    <rect x="696" y="760" width="44" height="120" rx="7" fill="#EEF2FF" />
+  </g>
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="1440" y2="1024" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E0F2FE" />
+      <stop offset="0.45" stop-color="#F8FAFC" />
+      <stop offset="1" stop-color="#E2E8F0" />
+    </linearGradient>
+    <linearGradient id="paint1_linear" x1="200" y1="720" x2="440" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1D4ED8" />
+      <stop offset="1" stop-color="#3B82F6" />
+    </linearGradient>
+    <linearGradient id="paint2_linear" x1="320" y1="540" x2="440" y2="780" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563EB" />
+      <stop offset="1" stop-color="#60A5FA" />
+    </linearGradient>
+    <linearGradient id="paint3_linear" x1="200" y1="600" x2="320" y2="780" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E40AF" />
+      <stop offset="1" stop-color="#3B82F6" />
+    </linearGradient>
+    <linearGradient id="paint4_linear" x1="880" y1="730" x2="1200" y2="730" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0EA5E9" />
+      <stop offset="1" stop-color="#38BDF8" />
+    </linearGradient>
+    <linearGradient id="paint5_linear" x1="1040" y1="520" x2="1200" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0284C7" />
+      <stop offset="1" stop-color="#38BDF8" />
+    </linearGradient>
+    <linearGradient id="paint6_linear" x1="880" y1="600" x2="1040" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0369A1" />
+      <stop offset="1" stop-color="#0EA5E9" />
+    </linearGradient>
+    <linearGradient id="paint7_linear" x1="520" y1="790" x2="760" y2="790" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E293B" />
+      <stop offset="1" stop-color="#334155" />
+    </linearGradient>
+    <linearGradient id="paint8_linear" x1="640" y1="620" x2="760" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1F2937" />
+      <stop offset="1" stop-color="#4B5563" />
+    </linearGradient>
+    <linearGradient id="paint9_linear" x1="520" y1="660" x2="640" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827" />
+      <stop offset="1" stop-color="#374151" />
+    </linearGradient>
+  </defs>
+</svg>
