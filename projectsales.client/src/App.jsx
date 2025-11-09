@@ -1,34 +1,52 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import packageJson from '../package.json'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const appVersion = packageJson.version
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <main className="login-container">
+      <section className="login-card">
+        <header className="login-header">
+          <h1 className="login-title">Iniciar sesión</h1>
+          <p className="login-subtitle">Accede a tu cuenta para continuar</p>
+        </header>
+
+        <form className="login-form">
+          <div className="form-field">
+            <label className="form-label" htmlFor="email">
+              Correo electrónico
+            </label>
+            <input
+              className="form-input"
+              id="email"
+              type="email"
+              placeholder="tucorreo@empresa.com"
+              autoComplete="email"
+            />
+          </div>
+
+          <div className="form-field">
+            <label className="form-label" htmlFor="password">
+              Contraseña
+            </label>
+            <input
+              className="form-input"
+              id="password"
+              type="password"
+              placeholder="********"
+              autoComplete="current-password"
+            />
+          </div>
+
+          <button className="login-button" type="submit">
+            Ingresar
+          </button>
+
+          <p className="login-version">Versión {appVersion}</p>
+        </form>
+      </section>
+    </main>
   )
 }
 
